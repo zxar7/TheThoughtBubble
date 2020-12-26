@@ -70,7 +70,7 @@ router.get('/topic/:title',function(req,res){
     });
 })
 
-//Check if the someone had this thought
+//Check if someone has had this thought
 router.get("/checkThought/:topicTitle",(req,res)=>{
 
     Thought.find({topicTitle: { $regex: '.*' + req.params.topicTitle + '.*' , $options: 'i'}})
