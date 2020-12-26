@@ -1,0 +1,220 @@
+/* This is the external stylesheet  */
+
+
+/* The various styles used throughout the application */
+body{
+  background-color: yellow;
+  color: black;
+  font-size: 3em;
+  margin: 0; 
+}
+
+* {
+  box-sizing: border-box;
+  
+}
+
+.main{
+  display: inline;
+  text-align: left;
+  font-family: 'JosefinSans-Bold';
+}
+
+.question{
+  font-family: 'Courgette-Regular';
+  font-weight: bold;
+}
+
+.holder {
+  display: flex;
+  padding: 1em;
+  margin: 1em;
+}
+
+
+img {
+  width: 10em;
+  height: 10em;
+}
+
+a{
+  color: black;
+  text-decoration-line: black;
+  text-decoration-style: dotted;
+}
+
+a:visited{
+  color: black;
+  text-decoration-line: black;
+}
+
+a:hover{
+  color: red;
+  text-decoration-line: red;
+}
+
+.banner{
+  font-family: 'JosefinSans-Bold';
+  height: 1.5em;
+  display: flex;
+  margin: 0;
+  background-color: black;
+  color: yellow;
+}
+
+.headerSpace{
+  flex: 20;
+}
+
+.headerTree{
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.loginButton{
+  flex: 1;
+}
+
+.bannerHeader{
+  font-size: 1em;
+  align-self: flex-end;
+  padding-left: 0.2em;
+}
+
+.mainBanner{
+  font-family: 'JosefinSans-Bold';
+  height: 1.5em;
+  display: flex;
+  margin: 0em;
+}
+
+.suggestion{
+  margin: 0.5em;
+  font-size: 0.9em;
+  font-family:'JosefinSans-Light';
+}
+
+.about{
+  font-family: 'JosefinSans-Light';
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.loginForm{
+  margin: auto;
+  
+  text-align: center;
+}
+
+.loginErrMsg{
+  font-family: 'JosefinSans-Regular';
+  color:red;
+  text-align: center;
+  font-size: 0.5em;
+}
+
+.searchButton{
+  display: flex;
+  text-align: center;
+  margin: 1em 1em 0.2em 1em;
+  padding: 0 1em 0 1em;
+}
+
+.loginInfo, .successMsg, .successMsg2{
+  font-family: 'JosefinSans-Regular';
+  font-size: 0.5em;
+  text-align: center;
+}
+
+.info{
+  text-align: center;
+  font-size: 0.6em;
+  font-weight: bold;
+  font-family: 'JosefinSans-Regular';
+}
+
+.successMsg, .successMsg2{
+  color: #49664d;
+  font-family: 'JosefinSans-Bold';
+  font-weight: bold;
+}
+
+.thoughtCard {
+  text-align: center;
+    font-size: 0.6em;
+    background-color: #17363f;
+    color: khaki;
+    margin: 1.5em;
+    padding: 0.5em;
+    display: flex;
+}
+
+.left{
+  text-align: left;
+  flex: 1
+}
+.right{
+  text-align: left;
+  flex: 5;
+}
+
+.successMsg2{
+  padding: 1em;
+}
+
+.thought_box, .thought_box_charm{
+  -moz-box-shadow: 5px 4px 28px 0px rgba(0,0,0,0.75);
+  box-shadow: 5px 4px 28px 0px rgba(0,0,0,0.75);
+  overflow: hidden;
+  white-space: pre-wrap;
+  background-color: #ffff8d;
+  word-break: break-word;
+  margin: 1em;
+  margin-bottom: 0.8em; 
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.topic , .topic_charm{
+  
+  text-align: center;
+  font-size: 0.7em;
+  margin: 0;
+  padding: 0.1em;
+  font-family: 'Charm-Bold';
+  font-family: 'IndieFlower';
+  font-weight: bolder;
+}
+
+.thought, .thought_charm{
+  overflow: hidden;
+  text-align: center;
+  font-size: 0.5em;
+  margin: 0;
+  padding: 0.5em;
+  font-family: 'IndieFlower';
+  /* font-family: 'Charm-Regular' */
+}
+
+
+.topic_charm {
+  background-color: black;
+  color: yellow;
+  font-family: 'Charm-Bold';
+  text-align: left;
+  padding-left: 1em;
+}
+.thought_charm {
+  font-family: 'Charm-Regular';
+}
+
+.thought_box_charm{
+  background-color: #efef5a;
+}
+
+.thought_comment{
+  font-family: 'Charm-Bold';
+  text-align: center;
+  margin: 0;
+}

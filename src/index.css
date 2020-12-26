@@ -1,0 +1,76 @@
+/* Style for the banner header    */
+/* Josefin_Sans */
+
+@font-face {
+  font-family: 'JosefinSans-Bold';
+  font-style: italic;
+  font-display: swap;
+  src:
+    local('JosefinSans-Bold'),
+    url('./fonts/JosefinSans/JosefinSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'JosefinSans-Light';
+  font-style: italic;
+  font-display: swap;
+  src:
+    local('JosefinSans-Light'),
+    url('./fonts/JosefinSans/JosefinSans-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'JosefinSans-Regular';
+  font-style: italic;
+  font-display: swap;
+  src:
+    local('JosefinSans-Regular'),
+    url('./fonts/JosefinSans/JosefinSans-Regular.ttf') format('truetype');
+}
+
+
+/* Style for the banner question*/
+/* Courgette */
+
+@font-face {
+  font-family: 'Courgette-Regular';
+  font-style: italic;
+  font-display: swap;
+  src:
+    local('Courgette-Regular'),
+    url('./fonts/Courgette/Courgette-Regular.ttf') format('truetype');
+}
+
+/* Style for the comments    */
+/* Indie_Flower */
+
+@font-face {
+  font-family: 'IndieFlower';
+  font-style: italic;
+  font-display: swap;
+  src:
+    local('IndieFlower'),
+    url('./fonts/Indie_Flower/IndieFlower.ttf') format('truetype');
+}
+
+
+/* Style for the thoughts    */
+/* Charm */
+
+@font-face {
+  font-family: 'Charm-Bold';
+  font-style: italic;
+  font-display: swap;
+  src:
+    local('Charm-Bold'),
+    url('./fonts/Charm/Charm-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Charm-Regular';
+  font-style: italic;
+  font-display: swap;
+  src:
+    local('Charm-Regular'),
+    url('./fonts/Charm/Charm-Regular.ttf') format('truetype');
+}
